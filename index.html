@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Laptop shop</title>
+</head>
+<body>
+<!-- website main stracture -->
+     <main class="container p-5" >
+         <div class="row">
+            <div class="col-lg-6">
+                <img  class="img-fluid" src="images/images (1).jpg" alt="">
+               </div>
+            <div class="col-lg-6">
+               <h1 class="fs-1">
+                Thunderobot 911MT Core i5 12th Gen RTX 3060 6GB Graphics 15.6" FHD 144Hz Gaming Laptop
+               </h1>
+                <p>
+                    Model: 911MT
+                    Processor: Intel Core i5-12450H (12M Cache, 3.30 GHz up to 4.40 GHz)
+                    RAM: 16GB DDR4 3200MHz , Storage: 512GB SSD
+                    Graphics: GeForce RTX 3060 GPU 6GB GDDR6
+                    Features: Backlit Keyboard, 144Hz, Type C
+               </p>
+<!-- memory part -->
+               <div class="memory">
+                   <h5><b>Memory</b></h5>
+                   <div>
+                
+                       <button id="memory-button-two" type="button" class="btn btn-outline-secondary">8Gb unfiled momory</button>
+                       <button id="memory-button" type="button" class="btn btn-outline-secondary">16gb unflied memory</button>
+                   </div>
+<!-- storage part -->
+                   <div class="memory">
+                       <h5><b>Storage</b></h5>
+                       <div>
+                        <button id="storage-buttonOne" type="button" class="btn btn-outline-secondary">256GB SSD Storage</button>
+                        <button id="storage-buttonTwo" type="button" class="btn btn-outline-secondary">512GB SSD Storage</button>
+                        <button id="storage-buttonthree" type="button" class="btn btn-outline-secondary">1Tb SSD Storage</button>
+                       </div>
+                   </div>
+<!-- Delivery option -->
+                   <div class="memory">
+                       <h5><b>Choose your Delivery Option</b></h5>
+                       <div>
+                        <button id="delivery-button-two" type="button" class="btn btn-outline-secondary">Free delivery till,1 Oct</button>
+                        <button id="delivery-button" type="button" class="btn btn-outline-secondary">from 2 Oct,Delivery charge $20</button>
+                       </div>
+                   </div>
+<!-- pricing calculation -->
+                   <div class="w-75 h-auto my-5">
+                       <div class="d-flex">
+                           <p class="fw-bold">Best Price</p>
+                           <p class="ms-auto">$<span id="price">1299</span></p>
+                       </div>
+                       <hr>
+                       <div class="d-flex">
+                        <p class="fw-bold">Extra Memory Price</p>
+                        <p class="ms-auto">$<span id="memory-input" >0</span></p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p class="fw-bold">Extra Storage</p>
+                        <p class="ms-auto">$<sapn id="storage-input">0</sapn></p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <p class="fw-bold">Delivery Charge</p>
+                        <p class="ms-auto">$<span id="delivery-input">0</span></p>
+                    </div>
+                    <hr class="hr-text">
+                    <div class="d-flex">
+                        <p class="fw-bold">Total Price</p>
+                        <p class="ms-auto">$<span id="total-case">1299</span></p>
+                    </div>
+                    
+
+                   </div>
+
+<!-- Bounes Part -->
+                   <section >
+                       <p>Add Promo Code</p>
+                       <div class="d-flex mb-3">
+                        <input id="promo-input" type="text">
+                        <button id="promo-button" class="btn btn-danger ms-2">Add Promo</button>
+                       </div>
+
+                    
+                   </section>
+                   
+               </div>
+            </div>
+         </div>
+    
+     </main>
+     <hr>
+     <div>
+         <h1 class="text-center">Total=<span id="main-total">$1299</span></h1>
+     </div>
+
+
+
+<!-- java script link -->
+    <script src="/js/app.js"></script>
+</body>
+    
